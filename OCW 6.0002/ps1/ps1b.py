@@ -1,8 +1,8 @@
 ###########################
 # 6.0002 Problem Set 1b: Space Change
-# Name:
+# Name: Breno
 # Collaborators:
-# Time:
+# Time:15min
 # Author: charz, cdenise
 
 #================================
@@ -23,20 +23,17 @@ def dp_make_weight(egg_weights, target_weight, memo = {}):
     Returns: int, smallest number of eggs needed to make target weight
     """
     #Get the eggs in order from largest to smallest in weight
-    #parameter to count the amount of eggs it is actually taking
+    #parameter to count the amount of eggs 
     #start from the heaviest and go down, a heavier egg will always
     #occupy less space
     
     egg_weights_sorted = sorted(egg_weights, reverse = True)
     total_eggs = 0
     remaining_weight = target_weight
-    
-    
+   
     for egg_weight in egg_weights_sorted:
         total_eggs += remaining_weight//egg_weight
         remaining_weight %= egg_weight
-        if remaining_weight == 0:
-            break
     
     return total_eggs
 
