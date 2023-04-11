@@ -1,8 +1,8 @@
 # 6.0002 Problem Set 5
 # Graph optimization
-# Name:
-# Collaborators:
-# Time:
+# Name: Breno
+# Collaborators: --
+# Time: 2days
 
 #
 # Finding shortest paths through MIT buildings
@@ -10,18 +10,6 @@
 import unittest
 from copy import deepcopy
 from graph import Digraph, Node, WeightedEdge
-
-#
-# Problem 2: Building up the Campus Map
-#
-# Problem 2a: Designing your graph
-#
-# What do the graph's nodes represent in this problem? What
-# do the graph's edges represent? Where are the distances
-# represented?
-#
-# Answer:
-#
 
 
 # Problem 2b: Implementing load_map
@@ -66,17 +54,8 @@ def load_map(map_filename):
 
 # Problem 2c: Testing load_map
 # Include the lines used to test load_map below, but comment them out
-
-
-#
-# Problem 3: Finding the Shorest Path using Optimized Search Method
-#
-# Problem 3a: Objective function
-#
-# What is the objective function for this problem? What are the constraints?
-#
-# Answer:
-#
+#if __name__ == "__main__":
+#     load_map("mit_map.txt")
 
 # Problem 3b: Implement get_best_path
 def get_best_path(digraph, start, end, path, max_dist_outdoors, best_dist,
