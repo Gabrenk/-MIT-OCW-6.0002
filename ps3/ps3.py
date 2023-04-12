@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 # Problem Set 3: Simulating robots
-# Name:
+# Name: Breno
 # Collaborators (discussion):
-# Time:
+# Time:3h
 
 import math
 import random
